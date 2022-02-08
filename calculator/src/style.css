@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #827b60;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Oxygen", sans-serif;
+}
+
+.calculator {
+  background-color: #49413f;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  height: 450px;
+  width: 250px;
+}
+
+.display {
+  font-size: 36px;
+  position: relative;
+  padding: 20px 10px;
+  text-align: right;
+  height: 70px;
+  width: 100%;
+  color: white;
+}
+
+.numbers-container {
+  width: 75%;
+}
+
+.operators-container {
+  width: 25%;
+}
+
+button {
+  border-radius: 50% solid;
+  height: 50px;
+  width: 50px;
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+button:focus {
+  outline: none;
+}
+
+button.brown {
+  background-color: #2b1b17;
+}
+
+button.sienna {
+  background-color: #8a4117;
+}
+
+button.sand {
+  background-color: #786d5f;
+  color: black;
+}
+
+button.vert {
+  border-radius: 50px;
+  height: 110px;
+}
+
+button.horz {
+  border-radius: 50px;
+  width: 110px;
+}
+
+button.c {
+  margin-right: 45%;
+}
